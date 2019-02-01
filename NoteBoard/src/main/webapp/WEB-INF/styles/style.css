@@ -1,0 +1,65 @@
+.boardContainer {
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: #b3b3b3;
+    border: 1px black solid;
+}
+
+.boardName {
+    margin: 10px;
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boardDate {
+    margin: 10px;
+    background-color: rgb(248, 200, 172);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryContainer {
+    float: left;
+    background-color: blue;
+    max-width: 300px;
+}
+
+.noteContainer {
+    background-color: brown;
+}
+
+.categoryBox a:first-child {
+    background-color: #333333;
+    color: #F1F1F1;
+    font-weight: 700;
+    height: 66px;
+    line-height: 66px;
+}
+
+.categoryBox a {
+    display: block;
+    padding: 0 40px;
+    height: 43px;
+    line-height: 39px;
+    width: inherit;
+    background-color: #26D2FC;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 900;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.categoryBox a:hover {
+    background-color: #333333;
+    color: #F1F1F1;
+}
